@@ -4,5 +4,9 @@ h1 {
 
 mat-grid-tile {
   background: lightblue;
+   font-size: 30px;   /* más grande */
+  font-weight: bold; /* negrita */
 }
+
+
 
