@@ -2,11 +2,29 @@ h1 {
   text-align: center;
 }
 
-mat-grid-tile {
-  background: lightblue;
-   font-size: 30px;   /* más grande */
-  font-weight: bold; /* negrita */
+
+
+
+.snap-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth; /* Opcional: para transiciones suaves */
 }
 
+.snap-item {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.imagen-completa {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
 
 
